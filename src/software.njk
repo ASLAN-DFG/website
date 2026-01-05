@@ -1,0 +1,23 @@
+---
+layout: layout.njk
+title: Software & Data
+---
+
+<h1>Software &amp; Data</h1>
+<div class="software-list">
+{% for item in software %}
+  <div class="software-item">
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+    <span class="badge badge-{{ item.type | lower }}">{{ item.type | capitalize }}</span>    
+    <div class="software-links">
+      {% if item.github %}
+        <a href="{{ item.github }}" target="_blank" rel="noopener" class="btn btn-github">GitHub</a>
+      {% endif %}
+      {% if item.download %}
+        <a href="{{ item.download }}" target="_blank" rel="noopener" class="btn btn-download">Download</a>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
