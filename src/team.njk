@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+title: Team
+---
+
+<h1>Team</h1>
+<div class="team-grid">
+{% for member in team %}
+  <div class="team-member">
+    <div class="member-photo">
+      <img src="{{ member.image | url }}" alt="Photo of {{ member.name }}" onerror="this.style.display='none'">
+    </div>
+    <h3>{{ member.name }}</h3>
+    <p><strong>{{ member.role }}</strong></p>
+    <p>{{ member.affiliation }}</p>
+    {% if member.website %}
+      <p><a href="{{ member.website }}" target="_blank" rel="noopener">Website</a></p>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "Default Title" }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a href="/" class="logo">Project Name</a>
+    <!-- Hamburger icon (hidden on desktop) -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Show menu">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation links -->
+    <ul class="menu">
+      <li><a href="/about/">About</a></li>
+      <li><a href="/team/">Team</a></li>
+      <li><a href="/publications/">Publications</a></li>
+      <li><a href="/software/">Software &amp; Data</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+    {{ content | safe }}
+  </div>
+</main>
+
+<footer>
+  © ASLAN Project 2026
+</footer>
+
+</body>
+</html>

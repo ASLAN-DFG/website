@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Research Toolkit",
+    "description": "A comprehensive toolkit for data analysis",
+    "type": "Software",
+    "github": "https://github.com/username/repo",
+    "download": ""
+  },
+  {
+    "name": "Dataset Name",
+    "description": "Annotated dataset for research purposes",
+    "type": "Dataset",
+    "github": "",
+    "download": "/data/dataset.zip"
+  }
+]
