@@ -162,6 +162,15 @@ details p{margin-top :.5rem;padding-left :1rem }
     color:white;
 }
 
+.table-responsive { overflow-x:auto; }
+#dataset-table { border-collapse:collapse; width:100%; margin-top:2em;}
+#dataset-table th,#dataset-table td{border:1px solid #ddd;padding:.5em;}
+#dataset-table th { background:#f8f9fa; cursor:pointer; user-select:none;}
+#dataset-table th.sorted-asc::after { content: " ▲"; }
+#dataset-table th.sorted-desc::after { content: " ▼"; }
+#dataset-table tr:nth-child(even){background:#fafbfc;}
+#dataset-table tr:hover{background:#eef3fa;}
+
 .software-links {
    margin-top:1em;
 }

@@ -21,3 +21,56 @@ title: Software & Data
   </div>
 {% endfor %}
 </div>
+
+<h1>Datasets</h1>
+
+<div class="table-responsive">
+  <table id="dataset-table">
+      <thead>
+        <tr>
+          {% for key in datasets.keys %}
+            <th>{{ key }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in datasets.data %}
+          <tr>
+            {% for key in datasets.keys %}
+              <td>{{ row[key] }}</td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+   </table>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const table = document.getElementById('dataset-table');
+  const ths = table.querySelectorAll('th');
+  let sortDirection = {};
+
+  ths.forEach((th, idx) => {
+    th.addEventListener('click', () => {
+      const tbody = table.querySelector('tbody');
+      sortDirection[idx] = !sortDirection[idx];
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      rows.sort((a, b) => {
+        let v1 = a.children[idx].textContent.trim();
+        let v2 = b.children[idx].textContent.trim();
+        if (!isNaN(v1) && !isNaN(v2)) {
+          v1 = parseFloat(v1);
+          v2 = parseFloat(v2);
+        }
+        return (v1 > v2 ? 1 : v1 < v2 ? -1 : 0) * (sortDirection[idx] ? 1 : -1);
+      });
+      // Visual feedback:
+      ths.forEach((header,i)=>header.classList.remove("sorted-asc","sorted-desc"));
+      th.classList.add(sortDirection[idx] ? "sorted-asc" : "sorted-desc");
+      
+      rows.forEach(row => tbody.appendChild(row));
+    });
+  });
+});
+</script>
