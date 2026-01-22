@@ -4,27 +4,27 @@
     "image": "/img/team/yuning_ding.jpg",
     "role": "Researcher",
     "affiliation": "IPN Kiel",
-    "website": ""
+    "website": "https://www.leibniz-ipn.de/en/the-ipn/about-us/staff/yuning-ding"
   },
   {
     "name": "Andrea Horbach",
     "image": "/img/team/andrea_horbach.jpg",
     "role": "Principal Investigator",
     "affiliation": "IPN Kiel",
-    "website": "https://www.leibniz-ipn.de/de/das-ipn/ueber-uns/personen/andrea-horbach"
+    "website": "https://www.leibniz-ipn.de/en/the-ipn/about-us/staff/andrea-horbach"
   },
   {
     "name": "Josef Ruppenhofer",
     "image": "/img/team/josef_ruppenhofer.jpg",
     "role": "Researcher",
     "affiliation": "FernUniversität in Hagen",
-    "website": "https://www.fernuni-hagen.de/forschung/schwerpunkte/catalpa/ueber-catalpa/personen/josef.ruppenhofer.shtml"
+    "website": "https://www.fernuni-hagen.de/english/research/clusters/catalpa/about-catalpa/members/josef.ruppenhofer.shtml"
   },
   {
     "name": "Torsten Zesch",
     "image": "/img/team/torsten_zesch.jpg",
     "role": "Principal Investigator",
     "affiliation": "FernUniversität in Hagen",
-    "website": "https://www.fernuni-hagen.de/forschung/schwerpunkte/catalpa/ueber-catalpa/personen/torsten.zesch.shtml"
+    "website": "https://www.fernuni-hagen.de/english/research/clusters/catalpa/about-catalpa/members/torsten.zesch.shtml"
   }
 ]
