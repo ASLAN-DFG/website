@@ -7,7 +7,7 @@ Welcome to the website of research project ASLAN (Assisted Scoring of Laener Ans
 
 ## Latest News
 
-- **February 2026**:  Project Websit Released
+- **February 2026**:  Project Website Released
 - **January 2026**: First Project Meeting in Essen
 
 ## Project Overview
