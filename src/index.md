@@ -12,10 +12,11 @@ Welcome to the website of research project ASLAN (Assisted Scoring of Laener Ans
 
 ## Project Overview
 
-The project ASLAN introduces a **human-in-the-loop** paradigm for scoring free-text lerner answers in education. 
-By leveraging Natural Language Processing (NLP) and advanced text normalization, the project aims to reduce the linguistic variance of student answers. 
-Instead of fully automating the grading process - which often faces challenges regarding transparency, ethics, and accuracy - this approach uses Machine Learning to normalize and cluster answers, allowing human teachers to grade more efficiently without losing control over the final assessment. 
-In this way, we aim for easier adaptation to new tasks and a significant reduction in the workload of teachers dealing with time-consuming assessment tasks.</p>
+Assessing student learning progress is a core task in education. Free-text questions play an important role in this process, as they require different competencies than multiple-choice formats. However, grading free-text answers is highly time-consuming due to their linguistic variability: even short answers often differ substantially from one another.
+
+The **ASLAN (“Assisted Scoring of Learner Answers through Normalization”) project** supports teachers by reducing linguistic variance in learner answers through transparent linguistic normalization techniques. Equivalent answers are grouped and can be assessed or given feedback together, enabling efficient, explainable, and human-centered grading.
+
+This approach allows feedback and grading rationales to be transparently applied to entire groups of similar answers. By making normalization steps explicit, ASLAN provides a form of explainability that is directly useful to teachers, avoiding many of the ethical, legal and acceptance issues associated with fully automated scoring systems.
 <div style="text-align: center;">
   <img src="/img/aslan_overview.png" alt="Illustration of the Paradigm Shift in ASLAN" onerror="this.style.display='none'" width="800" >
 </div>
@@ -31,6 +32,10 @@ The main objective is to investigate an alternative assessment model for free-te
 ### Methodology
 ### Expected outcomes
 ### Funding information
+Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project number 563947383.
+<div style="text-align: center;">
+  <img src="/img/dfg_logo_schriftzug_blau_foerderung_en.jpg" alt="Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)" onerror="this.style.display='none'"  width="800">
+</div>
 
 ## Contact
 
