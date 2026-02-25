@@ -34,12 +34,18 @@
     "github": "https://github.com/catalpa-cl/ChineseShortAnswerDatasets/blob/main/ASAP_ZH.txt",
     "download": ""
   },
+    {
+    "name": "ASAP_DE",
+    "description": "Original ASAP dataset in prompt 1, 2 and 10 translated into German and rescored.",
+    "type": "Dataset",
+    "github": "",
+    "download": "https://github.com/catalpa-cl/crosslingual/blob/master/data/germanAsap.txt"
+  },
   {
     "name": "Implicitness Annotations of English Short Answers",
     "description": "Short answer data annotated for linguistic phenomena pertaining to the implicitness of language.",
     "type": "Dataset",
     "github": "https://github.com/mariebexte/unimplicit-short-answer-scoring",
     "download": ""
-  }
-  
+  }  
 ]

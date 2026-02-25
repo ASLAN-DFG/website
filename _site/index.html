@@ -9,8 +9,10 @@
 
 <nav>
   <div class="container">
-    <img src="/img/logo.png" alt="Logo of ASLAN" onerror="this.style.display='none'" width="150">
-    <a href="/" class="logo">ASLAN</a>
+    <a href="/" class="logo">
+    <img src="/img/aslan-logo.png" alt="ASLAN Logo">
+    ASLAN
+    </a>
     <!-- Hamburger icon (hidden on desktop) -->
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Show menu">
     <label for="nav-toggle" class="nav-toggle-label">
@@ -21,6 +23,7 @@
 
     <!-- Navigation links -->
     <ul class="menu">
+      <li><a href="/">Home</a></li>
       <li><a href="/team/">Team</a></li>
       <li><a href="/publications/">Publications</a></li>
       <li><a href="/software/">Software &amp; Data</a></li>
@@ -30,42 +33,40 @@
 
 <main>
   <div class="container">
-    <p>Welcome to the website of research project ASLAN (Assisted Scoring of Laener Answers through Normalization).</p>
+    <p>Welcome to the website of research project <strong>ASLAN (Assisted Scoring of Laener Answers through Normalization)</strong>.</p>
 <h2>Latest News</h2>
 <ul>
-  <li><strong>February 2026</strong>: Project Websit Released</li>
-  <li><strong>January 2026</strong>: First Project Meeting in Essen</li>
-
+<li><strong>February 2026</strong>:  Project Website Released</li>
+<li><strong>January 2026</strong>: First Project Meeting in Essen</li>
 </ul>
 <h2>Project Overview</h2>
-<p>The project ASLAN introduces a <strong>human-in-the-loop</strong> paradigm for scoring free-text lerner answers in education. 
-  By leveraging Natural Language Processing (NLP) and advanced text normalization, the project aims to reduce the linguistic variance of student answers. 
-  Instead of fully automating the grading process - which often faces challenges regarding transparency, ethics, and accuracy - this approach uses Machine Learning to normalize and cluster answers, allowing human teachers to grade more efficiently without losing control over the final assessment. 
-  In this way, we aim for easier adaptation to new tasks and a significant reduction in the workload of teachers dealing with time-consuming assessment tasks.</p>
+<p>Assessing student learning progress is a core task in education. Free-text questions play an important role in this process, as they require different competencies than multiple-choice formats. However, grading free-text answers is highly time-consuming due to their linguistic variability: even short answers often differ substantially from one another.</p>
+<p>The <strong>ASLAN (“Assisted Scoring of Learner Answers through Normalization”) project</strong> supports teachers by reducing linguistic variance in learner answers through transparent linguistic normalization techniques. Equivalent answers are grouped and can be assessed or given feedback together, enabling efficient, explainable, and human-centered grading.</p>
+<p>This approach allows feedback and grading rationales to be transparently applied to entire groups of similar answers. By making normalization steps explicit, ASLAN provides a form of explainability that is directly useful to teachers, avoiding many of the ethical, legal and acceptance issues associated with fully automated scoring systems.</p>
 <div style="text-align: center;">
   <img src="/img/aslan_overview.png" alt="Illustration of the Paradigm Shift in ASLAN" onerror="this.style.display='none'" width="800" >
 </div>
-
-<h3>Research objectives</h3>
+<h2>Research objectives</h2>
 <p>The main objective is to investigate an alternative assessment model for free-text tasks based on supporting manual evaluation through text normalization, enabling fine-grained feedback. To achieve this, the project addresses several specific research objectives:</p>
 <ul>
-  <li><strong>Performance Analysis:</strong> Evaluate how the proposed approach influences the accuracy and time requirements of assessments compared to conventional human scoring on one hand and a fully automated scoring model on the other.</li>
-
-  <li><strong>Methodological Suitability:</strong> Investigate which existing text normalization approaches can be applied to learner responses, identifying where adaptations are necessary or where entirely new methods must be developed.</li>
-    
-  <li><strong>Cross-Lingual Transfer:</strong> Explore how existing approaches developed for other languages (primarily English, e.g., the resolution of numerical expressions) can be effectively transferred to German.</li>
-    
-  <li><strong>Process Optimization:</strong> Determine the role and impact of the sequence of normalization steps on the overall quality of the results.</li>
-    
-  <li><strong>Bias and Robustness:</strong> Analyze which biases are introduced or amplified by the normalization process and assess the system's vulnerability to adversarial inputs.</li>
+<li><strong>Performance Analysis:</strong> Evaluate how the proposed approach influences the accuracy and time requirements of assessments compared to conventional human scoring on one hand and a fully automated scoring model on the other.</li>
+<li><strong>Methodological Suitability:</strong>  Investigate which existing text normalization approaches can be applied to learner responses, identifying where adaptations are necessary or where entirely new methods must be developed.</li>
+<li><strong>Cross-Lingual Transfer:</strong> Explore how existing approaches developed for other languages (primarily English, e.g., the resolution of numerical expressions) can be effectively transferred to German.</li>
+<li><strong>Process Optimization:</strong> Determine the role and impact of the sequence of normalization steps on the overall quality of the results.</li>
+<li><strong>Bias and Robustness:</strong> Analyze which biases are introduced or amplified by the normalization process and assess the system's vulnerability to adversarial inputs.</li>
 </ul>
-<ul>
-<h3>Methodology</h3>
-<h3>Expected outcomes</h3>
-<h3>Funding information</h3>
-</ul>
+<h2>Cooperation Partners</h2>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+  <img src="/img/partners/DIPF.jpg" alt="Leibniz-Institut für Bildungsforschung und Bildungsinformation" onerror="this.style.display='none'"  width="300">
+  <img src="/img/partners/IQB.svg" alt="Institut zur Qualitätsentwicklung im Bildungswesen" onerror="this.style.display='none'"  width="300">
+</div>
+<h2>Funding information</h2>
+<p>Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project number 563947383.</p>
+<div style="text-align: center;">
+  <img src="/img/dfg_logo_schriftzug_blau_foerderung_en.jpg" alt="Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)" onerror="this.style.display='none'"  width="800">
+</div>
 <h2>Contact</h2>
-<p>For inquiries, please contact: <a href="mailto:email@institution.edu">email@institution.edu</a></p>
+<p>For inquiries, please contact: <a href="mailto:aslan@list.fernuni-hagen.de">aslan@list.fernuni-hagen.de</a></p>
 
   </div>
 </main>
