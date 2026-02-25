@@ -1,16 +1,45 @@
 [
   {
-    "name": "Research Toolkit",
-    "description": "A comprehensive toolkit for data analysis",
+    "name": "ESCRITO",
+    "description": "An NLP-Enhanced Educational SCoRing TOolkit.",
     "type": "Software",
-    "github": "https://github.com/username/repo",
+    "github": "https://github.com/catalpa-cl/escrito",
     "download": ""
   },
   {
-    "name": "Dataset Name",
-    "description": "Annotated dataset for research purposes",
+    "name": "DKPro Spelling / LeSpell",
+    "description": "A highly configurable spellchecking application.",
+    "type": "Software",
+    "github": "https://github.com/catalpa-cl/ltl-spelling",
+    "download": ""
+  },
+  {
+    "name": "Linguistic Features in Text (LiFT)",
+    "description": "A library for extracting linguistic features from textual data.",
+    "type": "Software",
+    "github": "https://github.com/zesch/linguistic-features-in-text",
+    "download": ""
+  },
+  {
+    "name": "Chinese Educational Short Answers (CESA)",
+    "description": "Chinese short answers collected in physics and computer science domains from students of Zhengzhou University.",
     "type": "Dataset",
-    "github": "",
-    "download": "/data/dataset.zip"
+    "github": "https://github.com/catalpa-cl/ChineseShortAnswerDatasets/blob/main/CESA.txt",
+    "download": ""
+  },
+  {
+    "name": "ASAP_ZH",
+    "description": "Original ASAP dataset in prompt 1, 2 and 10 translated into Chinese using the Google Translate API.",
+    "type": "Dataset",
+    "github": "https://github.com/catalpa-cl/ChineseShortAnswerDatasets/blob/main/ASAP_ZH.txt",
+    "download": ""
+  },
+  {
+    "name": "Implicitness Annotations of English Short Answers",
+    "description": "Short answer data annotated for linguistic phenomena pertaining to the implicitness of language.",
+    "type": "Dataset",
+    "github": "https://github.com/mariebexte/unimplicit-short-answer-scoring",
+    "download": ""
   }
+  
 ]
