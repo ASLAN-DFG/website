@@ -3,7 +3,7 @@ layout: layout.njk
 title: Home
 ---
 
-Welcome to the website of research project ASLAN (Assisted Scoring of Laener Answers through Normalization).
+Welcome to the website of research project **ASLAN (Assisted Scoring of Laener Answers through Normalization)**.
 
 ## Latest News
 
