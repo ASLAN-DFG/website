@@ -43,6 +43,12 @@ nav .logo {
     text-decoration: none;
 }
 
+nav .logo img {
+  height: 3em; 
+  width: auto;
+  vertical-align: middle;
+}
+
 nav ul {
     display: flex;
     list-style-type: none; /* statt list-style für Konsistenz */
