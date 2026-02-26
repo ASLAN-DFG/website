@@ -18,7 +18,7 @@ The **ASLAN (“Assisted Scoring of Learner Answers through Normalization”) pr
 
 This approach allows feedback and grading rationales to be transparently applied to entire groups of similar answers. By making normalization steps explicit, ASLAN provides a form of explainability that is directly useful to teachers, avoiding many of the ethical, legal and acceptance issues associated with fully automated scoring systems.
 <div style="text-align: center;">
-  <img src="/img/aslan_overview.png" alt="Illustration of the Paradigm Shift in ASLAN" onerror="this.style.display='none'" width="800" >
+  <img src="/img/ASLAN-overview.png" alt="Illustration of the Paradigm Shift in ASLAN" onerror="this.style.display='none'" width=100% >
 </div>
 
 ## Research objectives
