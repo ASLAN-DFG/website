@@ -322,3 +322,72 @@ footer a:hover {
   width: 1px;
   height: 1px;
 }
+
+/* --- Privacy Policy Extended Styles --- */
+
+.privacy-wrapper {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0px 2px 6px rgba(44,62,80,.04);
+}
+
+.privacy-notice {
+  background-color: #f8f9fa;
+  border-left: 4px solid #2c3e50;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.privacy-lang-section {
+  margin-bottom: 4rem;
+}
+
+.privacy-lang-section h1 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.privacy-lang-section h2 {
+  font-size: 1.4rem;
+  border-left: 4px solid #3498db;
+  padding-left: 1rem;
+}
+
+.privacy-lang-section ul {
+  margin: 1rem 0 1.5rem 1.5rem;
+}
+
+.privacy-lang-section li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links inherit your existing blue color */
+.privacy-lang-section a {
+  color: #3498db;
+  text-decoration: none;
+  word-break: break-all; /* Prevents long email addresses from overflowing on mobile */
+}
+
+.privacy-lang-section a:hover {
+  text-decoration: underline;
+}
+
+.section-divider {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 4rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .privacy-wrapper {
+      padding: 1rem;
+      border: none;
+      box-shadow: none;
+  }
+}
